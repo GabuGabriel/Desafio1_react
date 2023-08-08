@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
@@ -7,15 +6,12 @@ import Footer from './components/footer';
 
 function App() {
 
-
   return (
     <>
       <div className="container1">
 
         <div className="header">
-
           <Header titulo="Adopta un perrito" />
-
         </div>
 
         <div className="containercards">
@@ -62,9 +58,7 @@ function App() {
             color="primary"
             textobadge="Adoptar!!"
           />
-
         </div>
-
 
         <div className="footer">
           <Footer piedepagina="Página para la adopción de perritos. Todos los derechos reservados 2023" />

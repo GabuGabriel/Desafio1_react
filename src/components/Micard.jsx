@@ -1,27 +1,21 @@
 import Card from 'react-bootstrap/Card';
 import Tags from './Tags';
 
-function Micard(props) {
+function Micard({ imagen, titulo, descripcion, color, textobadge }) {
 
   return (
-
     <Card style={{ width: '18rem' }}>
 
-      <Card.Img variant="top" src={props.imagen} />
+      <Card.Img variant="top" src={imagen} />
 
       <Card.Body>
 
-        <Card.Title>{props.titulo}</Card.Title>
+        <Card.Title>{titulo}</Card.Title>
 
-        <Card.Text>{props.descripcion}</Card.Text>
+        <Card.Text>{descripcion}</Card.Text>
 
-        <Tags
-          color = {props.color}
-          textobadge = {props.textobadge}
-        />
-
+        <Tags color={color} textobadge={textobadge} />
       </Card.Body>
-
     </Card>
   );
 }

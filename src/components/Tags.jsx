@@ -1,17 +1,15 @@
 import Badge from 'react-bootstrap/Badge';
 
-function Tags(props) {
+function Tags({ color, textobadge }) {
 
     return (
-
         <>
             <h2>
-                <Badge bg={props.color}>
-                    {props.textobadge}
+                <Badge bg={color}>
+                    {textobadge}
                 </Badge>
             </h2>
         </>
-        
     )
 }
 

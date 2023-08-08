@@ -1,12 +1,10 @@
-function Footer (props){
+function Footer({ piedepagina }) {
 
-    return(
-
-    <>
-    <h2>{props.piedepagina}</h2>
-    </>
-)
-
+    return (
+        <>
+            <h2>{piedepagina}</h2>
+        </>
+    )
 }
 
 export default Footer
